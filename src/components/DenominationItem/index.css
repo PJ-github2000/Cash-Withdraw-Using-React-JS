@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.value-text {
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+.button {
+  height: 40px;
+  width: 30vw;
+  margin: 0px;
+  background-color: #382f5a;
+  border-radius: 8px;
+  border-width: 3px;
+  border-color: #585076;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #c4c4c4;
+}

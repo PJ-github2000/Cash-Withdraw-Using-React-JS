@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.background-container {
+  background-color: #150b3e;
+  padding: 80px;
+  height: 100vh;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.name-container {
+  display: flex;
+}
+.name-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c7d2fe;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.first-letter {
+  font-size: 40px;
+  font-weight: 800;
+  color: #7c3aed;
+}
+.name {
+  color: #d4d2db;
+  font-size: 40px;
+  margin-left: 50px;
+}
+.balance-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.balance-text {
+  color: #585076;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: monospace;
+}
+.amount {
+  font-size: 60px;
+  color: #d4d2db;
+  margin-right: 60px;
+}
+.rupees-text {
+  font-size: 30px;
+  color: #585076;
+  margin-top: 0px;
+}
+.withdraw-text {
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: 'Roboto';
+  margin-top: 0;
+}
+.sum-text {
+  color: #585076;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
